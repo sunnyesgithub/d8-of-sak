@@ -9,8 +9,8 @@ https://www.drupal.org/u/sunnydrupal
 
 JSON Encode URL
 -----------------
-URL : http(s)://<sitename>/node_json/<SITEAPIKEY>/<NODE_ID>
-test url : http://<sitename>/node_json/<SITEAPIKEY>/<NODE_ID>
+URL : http(s)://sitename/node_json/SITEAPIKEY/<NODE_ID>
+test url : http://sitename/node_json/SITEAPIKEY/<NODE_ID>
 
 REQUIREMENTS
 --------------------

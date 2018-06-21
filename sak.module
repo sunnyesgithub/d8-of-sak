@@ -11,7 +11,6 @@
  * Implements hook_form_FORM_ID_alter().
  */
 function sak_form_system_site_information_settings_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
-// print_r($form);exit();
   // Get the API Key configuration
   $config = \Drupal::config('sak.settings');
 

@@ -1,0 +1,7 @@
+sak_json_url:
+  path: 'node_json/{api_key}/{id}'
+  defaults:
+    _title: 'Basic Page Node to JSON'
+    _controller: '\Drupal\sak\Controller\sakController::render_json'
+  requirements:
+    _permission: 'access content'

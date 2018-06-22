@@ -3,8 +3,10 @@ MODULE
 Basic page node's to json using a site wide API key
 
 CREDITS
---------
-Developed by Sunny Singh Sharma <infoofsunnysharma@gmail.com>
+-------------
+Developed by:
+Sunny Sharma 
+<infoofsunnysharma@gmail.com>
 https://www.drupal.org/u/sunnydrupal
 
 JSON Encode URL
@@ -13,7 +15,7 @@ URL : http(s)://sitename/node_json/SITEAPIKEY/<NODE_ID>
 test url : http://sitename/node_json/SITEAPIKEY/<NODE_ID>
 
 REQUIREMENTS
---------------------
+-------------
 1) Alter Site information page in admin with field name 'Site API Key' under 'Site Detail' Section.
 2) Make 'Site API key' is compulsory field.
 3) Button text 'Save configuration' should be changed to 'Update configuration' at the time of updating key.
@@ -23,7 +25,7 @@ REQUIREMENTS
 7) If content type is not 'Basic page', it would return Access denied.
 
 References
----------------------
+-------------
 Form API : 
 https://www.drupal.org/docs/8/api/form-api/introduction-to-form-api
 
